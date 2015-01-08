@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-PryParseoXML-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PryParseoXML-Mantle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PryParseoXML-Reachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PryParseoXML-SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PryParseoXML.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2FC6C52690301D36AD399944</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C8ACB2AFCD18B82AA03FCC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8D5C22222101CE40EFE7C48B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4BC8BD2C65F58147D0976B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F016D050FF0D6CA06C7283A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

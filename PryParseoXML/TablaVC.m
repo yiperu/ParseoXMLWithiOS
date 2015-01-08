@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -67,7 +68,8 @@
 
 
 
-
-
-
+- (IBAction)btnSalir:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
 @end

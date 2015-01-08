@@ -16,6 +16,8 @@
 		1E3BF9401A5D846300286399 /* PryParseoXMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BF93F1A5D846300286399 /* PryParseoXMLTests.m */; };
 		1E3BF94C1A5DB45B00286399 /* EndPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BF94B1A5DB45B00286399 /* EndPoint.m */; };
 		1E3BF9501A5DC57F00286399 /* TablaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BF94F1A5DC57F00286399 /* TablaVC.m */; };
+		1E696C0A1A5EF44000F9A98D /* DescargaImgSEND.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E696C091A5EF44000F9A98D /* DescargaImgSEND.m */; };
+		9178E87E901F3B33B3242F69 /* libPods-PryParseoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D2F5E986A178C96F28DAE5 /* libPods-PryParseoXML.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08D2F5E986A178C96F28DAE5 /* libPods-PryParseoXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PryParseoXML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3BF9201A5D846300286399 /* PryParseoXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PryParseoXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3BF9241A5D846300286399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E3BF9251A5D846300286399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +49,11 @@
 		1E3BF94B1A5DB45B00286399 /* EndPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndPoint.m; sourceTree = "<group>"; };
 		1E3BF94E1A5DC57F00286399 /* TablaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaVC.h; sourceTree = "<group>"; };
 		1E3BF94F1A5DC57F00286399 /* TablaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaVC.m; sourceTree = "<group>"; };
+		1E696C081A5EF44000F9A98D /* DescargaImgSEND.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescargaImgSEND.h; sourceTree = "<group>"; };
+		1E696C091A5EF44000F9A98D /* DescargaImgSEND.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescargaImgSEND.m; sourceTree = "<group>"; };
+		1E696C0C1A5EF4CF00F9A98D /* MisCompletionBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MisCompletionBlocks.h; sourceTree = "<group>"; };
+		AEE303D7999E288C76F3F5E8 /* Pods-PryParseoXML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryParseoXML.release.xcconfig"; path = "Pods/Target Support Files/Pods-PryParseoXML/Pods-PryParseoXML.release.xcconfig"; sourceTree = "<group>"; };
+		BE5CE9FABED99418FAF8B356 /* Pods-PryParseoXML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryParseoXML.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PryParseoXML/Pods-PryParseoXML.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9178E87E901F3B33B3242F69 /* libPods-PryParseoXML.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +81,8 @@
 				1E3BF9221A5D846300286399 /* PryParseoXML */,
 				1E3BF93C1A5D846300286399 /* PryParseoXMLTests */,
 				1E3BF9211A5D846300286399 /* Products */,
+				556DB9C484059F03CD21EE10 /* Pods */,
+				F87F944BC0A8D7307EE2C77B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +98,8 @@
 		1E3BF9221A5D846300286399 /* PryParseoXML */ = {
 			isa = PBXGroup;
 			children = (
+				1E696C0B1A5EF48500F9A98D /* MisBulids */,
+				1E696C071A5EF3A800F9A98D /* AFNetworking */,
 				1E3BF94D1A5DC56900286399 /* Vistas */,
 				1E3BF9491A5DB43F00286399 /* Modelo */,
 				1E3BF9271A5D846300286399 /* AppDelegate.h */,
@@ -145,6 +158,40 @@
 			name = Vistas;
 			sourceTree = "<group>";
 		};
+		1E696C071A5EF3A800F9A98D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1E696C081A5EF44000F9A98D /* DescargaImgSEND.h */,
+				1E696C091A5EF44000F9A98D /* DescargaImgSEND.m */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		1E696C0B1A5EF48500F9A98D /* MisBulids */ = {
+			isa = PBXGroup;
+			children = (
+				1E696C0C1A5EF4CF00F9A98D /* MisCompletionBlocks.h */,
+			);
+			name = MisBulids;
+			sourceTree = "<group>";
+		};
+		556DB9C484059F03CD21EE10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE5CE9FABED99418FAF8B356 /* Pods-PryParseoXML.debug.xcconfig */,
+				AEE303D7999E288C76F3F5E8 /* Pods-PryParseoXML.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F87F944BC0A8D7307EE2C77B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08D2F5E986A178C96F28DAE5 /* libPods-PryParseoXML.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E3BF9431A5D846300286399 /* Build configuration list for PBXNativeTarget "PryParseoXML" */;
 			buildPhases = (
+				134297CFE0C0B28F758EC98D /* Check Pods Manifest.lock */,
 				1E3BF91C1A5D846300286399 /* Sources */,
 				1E3BF91D1A5D846300286399 /* Frameworks */,
 				1E3BF91E1A5D846300286399 /* Resources */,
+				8D6C51DCDE35452DD10E76BC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +289,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		134297CFE0C0B28F758EC98D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6C51DCDE35452DD10E76BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PryParseoXML/Pods-PryParseoXML-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E3BF91C1A5D846300286399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -250,6 +332,7 @@
 				1E3BF94C1A5DB45B00286399 /* EndPoint.m in Sources */,
 				1E3BF9501A5DC57F00286399 /* TablaVC.m in Sources */,
 				1E3BF9261A5D846300286399 /* main.m in Sources */,
+				1E696C0A1A5EF44000F9A98D /* DescargaImgSEND.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +452,7 @@
 		};
 		1E3BF9441A5D846300286399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5CE9FABED99418FAF8B356 /* Pods-PryParseoXML.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PryParseoXML/Info.plist;
@@ -379,6 +463,7 @@
 		};
 		1E3BF9451A5D846300286399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE303D7999E288C76F3F5E8 /* Pods-PryParseoXML.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PryParseoXML/Info.plist;
@@ -440,6 +525,7 @@
 				1E3BF9451A5D846300286399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E3BF9461A5D846300286399 /* Build configuration list for PBXNativeTarget "PryParseoXMLTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +534,7 @@
 				1E3BF9481A5D846300286399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

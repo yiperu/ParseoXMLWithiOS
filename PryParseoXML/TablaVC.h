@@ -13,5 +13,6 @@
 @interface TablaVC : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray * losDatos;
+- (IBAction)btnSalir:(id)sender;
 
 @end
