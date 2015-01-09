@@ -303,11 +303,12 @@
     
     AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
     
+//    [SVProgressHUD show];
+    [SVProgressHUD showWithStatus:@"Cargando desde el Serivcio los datos"];
     // Make sure to set the responseSerializer correctly
     operation.responseSerializer = [AFXMLParserResponseSerializer serializer];
-    
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-        
+        [SVProgressHUD dismiss];
         NSXMLParser *XMLParser = (NSXMLParser *)responseObject;
         [XMLParser setShouldProcessNamespaces:YES];
         
@@ -316,7 +317,7 @@
          [XMLParser parse];
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        
+        [SVProgressHUD dismiss];
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error Retrieving Weather"
                                                             message:[error localizedDescription]
                                                            delegate:nil

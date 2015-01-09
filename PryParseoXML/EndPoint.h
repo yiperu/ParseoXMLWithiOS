@@ -32,7 +32,6 @@
 @property (nonatomic, strong) NSString * restoUrl;
 @property (nonatomic, strong) NSString * idPais;
 
--(void) initWithIdEP:(NSString *)pIdEP yCodEP:(NSString *)pCodEP yDesEP:(NSString *)pDesEP yVersion:(NSString *)pVersion yHost:(NSString *)pHost yPuerto:(NSString *)pPuerto yRestUrl:(NSString *)pRestUrl yIdPais:(NSString *)pIdPais;
 
 
 @end

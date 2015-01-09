@@ -14,6 +14,7 @@
 #import <sys/utsname.h>
 
 #import <AFNetworking/AFNetworking.h>
+#import <SVProgressHUD/SVProgressHUD.h>
 
 
 @interface ViewController : UIViewController <NSXMLParserDelegate>
